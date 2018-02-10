@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    margin-top: 40px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/bg_image.jpeg);
+    background-size: cover;
+    height: 100vh;
+}
+
+#menu ul
+{
+    list-style: none;
+}
+
+#menu ul li
+{
+    border: 1px solid white;
+    width: 120px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    float: left;
+    position: relative;
+    border-radius: 20px;
+}
+
+#menu ul li a
+{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+#menu ul li a:hover
+{
+    background-color: forestgreen;
+    border-radius: 20px;
+}
+
+#menu ul ul
+{
+    position: absolute;
+    display: none;
+}
+
+#menu ul li:hover > ul
+{
+    display: block;
+}
+
+#menu ul ul ul
+{
+    margin-left: 120px;
+    top: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
